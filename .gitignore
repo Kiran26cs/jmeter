@@ -1,0 +1,13 @@
+# .NET build output
+bin/
+obj/
+*.user
+.vs/
+
+# JMeter output (run*.jtl reached 300+ MB; GitHub rejects files over 100 MB)
+results/
+jmeter.log
+*.jtl
+
+# empty scratch folder
+New Folder/
